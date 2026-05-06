@@ -38,7 +38,7 @@ Project Structure
 ├── index.py               # CLI interface
 Installation
 1️ Clone Repository
-git clone https://github.com/karnatikirankumarreddy234/AI-based-AI-based-physical-design-and-chip-design-system-.git
+git clone https://github.com/BHANUPRASAD1708/
 cd AI-based-AI-based-physical-design-and-chip-design-system-
 
 ### 2️ Install Dependencies
@@ -161,7 +161,7 @@ License
 This project is open-source and available
 
 Author
-Karnati Kiran Kumar Reddy B.Tech Student | AI + VLSI Enthusiast
+G.Bhanu Prasad  B.Tech Student | AI + VLSI Enthusiast
 
 Support
 If you like this project:
