@@ -1,0 +1,118 @@
+{
+    "chip_size": [
+        25,
+        25
+    ],
+    "blocks": {
+        "CPU": [
+            4,
+            4
+        ],
+        "GPU_CORE1": [
+            5,
+            4
+        ],
+        "GPU_CORE2": [
+            5,
+            4
+        ],
+        "GPU_CORE3": [
+            5,
+            4
+        ],
+        "GPU_CORE4": [
+            5,
+            4
+        ],
+        "L2CACHE": [
+            6,
+            5
+        ],
+        "HBM1": [
+            4,
+            3
+        ],
+        "HBM2": [
+            4,
+            3
+        ],
+        "HBM3": [
+            4,
+            3
+        ],
+        "HBM4": [
+            4,
+            3
+        ],
+        "AI_ACCEL": [
+            4,
+            4
+        ],
+        "DSP": [
+            3,
+            3
+        ],
+        "IO": [
+            3,
+            2
+        ],
+        "PCIE": [
+            3,
+            2
+        ]
+    },
+    "connections": [
+        [
+            "CPU",
+            "L2CACHE"
+        ],
+        [
+            "GPU_CORE1",
+            "L2CACHE"
+        ],
+        [
+            "GPU_CORE2",
+            "L2CACHE"
+        ],
+        [
+            "GPU_CORE3",
+            "L2CACHE"
+        ],
+        [
+            "GPU_CORE4",
+            "L2CACHE"
+        ],
+        [
+            "L2CACHE",
+            "HBM1"
+        ],
+        [
+            "L2CACHE",
+            "HBM2"
+        ],
+        [
+            "L2CACHE",
+            "HBM3"
+        ],
+        [
+            "L2CACHE",
+            "HBM4"
+        ],
+        [
+            "AI_ACCEL",
+            "CPU"
+        ],
+        [
+            "DSP",
+            "CPU"
+        ],
+        [
+            "IO",
+            "CPU"
+        ],
+        [
+            "PCIE",
+            "CPU"
+        ]
+    ]
+}
